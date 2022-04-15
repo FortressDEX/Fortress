@@ -4,7 +4,7 @@ Fortress Core
 
 Setup
 ---------------------
-Fortress Core is the original Fortress client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Fortress transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Fortress Core is the original Fortress client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Fortress transactions, which requires approximately 22 megabytes (MB) of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 To download Fortress Core, visit [fortress.org](https://fortress.org/).
 

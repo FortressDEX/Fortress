@@ -57,6 +57,27 @@ and proceed with running it again
 ./configure 
 ````
 
+---------------------
+
+Berkeley DB issue - This can be fixed by doing the following:
+````bash
+cd ~/db-4.8.30.NC/build_unix make sudo make install
+````
+Check that there is a BerkeleyDB.4.8 folder in /usr/local
+````bash
+ls /usr/local
+````
+then create a symbolic link:
+
+````bash
+ln -s /usr/local/BerkeleyDB.4.8 /usr/include/db4.8
+````
+and then do:
+
+````bash
+ln -s /usr/local/db4.8/include/* /usr/include ln -s /usr/local/db4.8/lib/* /usr/lib
+````
+
 Dependencies
 ---------------------
 

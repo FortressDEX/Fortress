@@ -26,6 +26,23 @@ make install # optional
 
 This will build fortress-qt as well, if the dependencies are met.
 
+If you get:
+
+`configure: error: libdb_cxx headers missing, Fortress Core requires this library for wallet functionality (--disable-wallet to disable wallet functionality)`
+
+after running 
+
+` ./configure `
+
+then run this command to install the dependancy:
+
+` sudo apt-get install libdb++-dev`
+
+and proceed with running it again
+
+` ./configure `
+
+
 Dependencies
 ---------------------
 

@@ -24,24 +24,38 @@ make
 make install # optional
 ```
 
+Or this one-liner
+---------------------
+
+````bash
+./autogen.sh && ./configure --with-incompatible-bdb && make
+````
+
 This will build fortress-qt as well, if the dependencies are met.
 
 If you get:
 
-`configure: error: libdb_cxx headers missing, Fortress Core requires this library for wallet functionality (--disable-wallet to disable wallet functionality)`
+````bash
+configure: error: libdb_cxx headers missing, Fortress Core requires this library for wallet functionality (--disable-wallet to disable wallet functionality)
+````
 
 after running 
 
-` ./configure `
+````bash
+./configure 
+````
 
 then run this command to install the dependancy:
 
-` sudo apt-get install libdb++-dev`
+````bash
+sudo apt-get install libdb++-dev
+````
 
 and proceed with running it again
 
-` ./configure `
-
+````bash
+./configure 
+````
 
 Dependencies
 ---------------------
